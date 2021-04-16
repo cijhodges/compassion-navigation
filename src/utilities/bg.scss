@@ -1,0 +1,6 @@
+@import './../tools/colors.scss';
+@import './../tools/breakpoints.scss';
+
+.bg {
+	@include colorOptions('background-color');
+}

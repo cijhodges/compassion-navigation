@@ -1,0 +1,12 @@
+@import './../settings/colors.scss';
+@import './../settings/fonts.scss';
+
+body {
+	font-family: $font-primary;
+	color: $color-steel;
+}
+
+body, 
+body * {
+	box-sizing: border-box;
+}

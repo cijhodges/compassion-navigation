@@ -1,0 +1,12 @@
+@import './settings/colors.scss';
+@import './settings/fonts.scss';
+
+@import './generic/reset.scss';
+
+@import './elements/body.scss';
+
+@import './../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import './components/App.scss';
+
+@import './utilities/bg.scss';
+@import './utilities/text.scss';

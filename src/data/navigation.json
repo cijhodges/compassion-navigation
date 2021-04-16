@@ -1,0 +1,74 @@
+[
+	{
+		"title": "Sponsor a Child",
+		"link": "/sponsor-a-child/",
+		"categories": [
+			{
+				"title": "Find a Child to Sponsor",
+				"link": "/sponsor-a-child/",
+				"children": [
+					{
+						"title": "View Longest Waiting",
+						"link": "/sponsor-a-child/longest-waiting"
+					}, {
+						"title": "Babies",
+						"link": "/sponsor-a-child/babies"
+					}, {
+						"title": "Teenagers",
+						"link": "/sponsor-a-child/teenagers"
+					}, {
+						"title": "Orphans",
+						"link": "/sponsor-a-child/orphans"
+					}, {
+						"title": "Special Needs",
+						"link": "/sponsor-a-child/special-needs"
+					}
+				]
+			}, {
+				"title": "More Information",
+				"link": "/sponsor-a-child/more-information",
+				"children": [
+					{
+						"title": "Why Sponsor a Child",
+						"link": "/sponsor-a-child/why-sponsor"
+					}, {
+						"title": "Sponsorship Review",
+						"link": "/sponsor-a-child/sponsorship-reviews"
+					}, {
+						"title": "FAQs",
+						"link": "/sponsor-a-child/faqs"
+					}
+				]
+			}
+		],
+		"aside": "Aside goes here"
+	}, {
+		"title": "Ways to Donate",
+		"link": "/donate/",
+		"categories": [
+			{
+				"title": "Meet Critical Needs",
+				"url": "/donate/meet-critical-needs",
+				"children": [
+					{
+						"title": "Help Babies & Mothers",
+						"link": "/donate/help-babies-and-mothers"
+					}, {
+						"title": "Medical Needs",
+						"link": "/donate/medical-needs"
+					}, {
+						"title": "Education",
+						"link": "/donate/education"
+					}, {
+						"title": "View More Funds",
+						"link": "/donate/more-funds"
+					}
+				]
+			}, {
+				"title": "Other Ways to Give",
+				"url": "/donate/other-ways-to-give",
+				"children": []
+			}
+		]
+	}
+]

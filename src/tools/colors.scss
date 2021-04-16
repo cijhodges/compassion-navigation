@@ -1,0 +1,12 @@
+@import './../settings/colors.scss';
+
+@mixin colorOptions($option) {
+	@each $key, $value in $colors {
+		&-#{$key} {
+			#{$option}: $value;
+		}
+	}
+}
+
+
+

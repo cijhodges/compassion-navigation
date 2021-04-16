@@ -1,0 +1,27 @@
+.utility-nav {
+	&__item {
+		display: flex;
+		align-items: center;
+		margin: .5rem 1rem;
+
+		&--checkout {
+			display: none !important;
+
+			@media (min-width: 375px) {
+				display: flex !important;
+			}
+		}
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+	}
+
+	&__icon {
+		margin-right: .5rem;
+		height: 1rem;
+	}
+}

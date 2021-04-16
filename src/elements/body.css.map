@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,IAAK;EACJ,WAAW,ECJG,wCAAwC;EDKtD,KAAK,EEAQ,OAAO;;AFGrB;MACO;EACN,UAAU,EAAE,UAAU",
+"sources": ["body.scss","../settings/fonts.scss","../settings/colors.scss"],
+"names": [],
+"file": "body.css"
+}

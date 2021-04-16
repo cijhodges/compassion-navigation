@@ -1,0 +1,50 @@
+@import './../tools/breakpoints.scss';
+@import './../tools/colors.scss';
+
+$textAlignmentOptions: (
+	left,
+	center,
+	right
+);
+
+$textStyleOptions: (
+	'bold': (
+		font-weight: bold
+	),
+	'italic': (
+		font-style: italic
+	),
+	'normal': (
+		font-weight: normal
+	)
+);
+
+@mixin textAlignments() {
+	@each $option in $textAlignmentOptions {
+		&-#{option} {
+			text-align: $option;
+		}
+	}
+}
+
+@mixin textStyles() {
+	@each $key, $value in $textStyleOptions {
+		&-#{$key} {
+			@each $key2, $value2 in $value {
+				#{$key2}: $value2;
+			}
+		}
+	}
+}
+
+.text {
+	@include colorOptions(color);
+	@include textAlignments();
+	@include textStyles();
+
+	@include allBreakpoints() {
+		@include colorOptions(color);
+		@include textAlignments();
+		@include textStyles();
+	}
+}

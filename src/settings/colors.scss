@@ -1,0 +1,31 @@
+$color-aqua: #4BBDD8;
+$color-blue: #005EB8;
+$color-blue-2: #00529E;
+$color-blue-3: #2B6FAE;
+$color-gray: #ccc;
+$color-gray-light: #EFEFEF;
+$color-steel: #425563;
+$color-steel-2: #768692;
+$color-teal: #71B2C9;
+$color-white: #FFF;
+$color-yellow: #FFB500;
+
+$colors: (
+	'primary': $color-blue,
+	'secondary': $color-yellow,
+	'aqua': $color-aqua,
+	'blue': $color-blue,
+	'blue-2': $color-blue-2,
+	'gray': $color-gray,
+	'gray-light': $color-gray-light,
+	'steel': $color-steel,
+	'steel-2': $color-steel-2,
+	'teal': $color-teal,
+	'white': $color-white,
+	'yellow': $color-yellow
+);
+
+$colorProperties: (
+	color,
+	background-color
+);
